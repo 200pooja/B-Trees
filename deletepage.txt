@@ -1,0 +1,5 @@
+else:
+                ID=request.form.get('id')
+                message=delete_record(name,ID)
+                return render_template('delete.html',message=message,res=res)
+                
